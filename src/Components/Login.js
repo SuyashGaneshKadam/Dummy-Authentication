@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import "../Login.css";
 // import axios from "axios";
 
 const Login = ({
@@ -28,6 +27,9 @@ const Login = ({
           return;
         }
         localStorage.setItem("userData", JSON.stringify(data));
+        setUsername("");
+        setPassword("");
+        // setError("");
         setIsLoggedIn(true);
       })
       .catch((err) => {

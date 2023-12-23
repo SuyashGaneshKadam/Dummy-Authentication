@@ -101,3 +101,45 @@ a {
   border-radius: 10px;
   width: 100%;
 }
+
+/* profile */
+
+#sign-up{
+  color: rgb(214, 205, 222);
+  font-size: 28px;
+  font-weight: 400;
+
+}
+.profile-pic{
+  margin-top: 40px;
+}
+h2{
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.user-info{
+  margin-top: 20px;
+}
+.user-info p{
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 4.6vh;
+  font-size: sans-serif;
+}
+.container{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* background styling */
+.container{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 100vh;
+  overflow: hidden;
+}
